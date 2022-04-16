@@ -1,0 +1,11 @@
+Aim: - Implementation of Constraint satisfaction problem Example:- Implement N-queen Problem
+
+Algorithm:- 
+while there are untried configurations
+{
+   generate the next configuration
+   if queens don't attack in this configuration then
+   {
+       print this configuration;
+   }
+}
