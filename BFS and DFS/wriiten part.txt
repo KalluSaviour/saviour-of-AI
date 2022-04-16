@@ -1,0 +1,8 @@
+Aim: - To Implement and Analysis of BFS and DFS for Application
+
+Algorithm:-
+
+1) Create a node list (Queue) that initially contains the first node N and mark it as visited.
+2) Visit the adjacent unvisited vertex of N and insert it in queue.
+3) If there are no adjacent vertices left, remove the first vertex from the queue mark it as visited, display it.
+4) Repeat the step 1 and step 2 until the queue is empty or the desired node is found.
