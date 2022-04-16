@@ -1,0 +1,18 @@
+Aim: - To implement Minimax Algorithm
+
+Algorithm:-
+  function minimax(node, depth, Player)
+  1. if depth == 0 or node is a terminal node then
+        return value(node)
+  2. If Player = 'Max'         // for Maximizer Player
+        set α = -∞             // worst case value for MAX
+        for each child of node do
+        value  = minimax(child, depth-1, 'MIN')
+        α = max(α, Value)      // gives Maximum of the values
+        return (α)
+     else
+        set α = +∞
+        for each child of node do
+        value = minimax(child, depth-1, 'MAX')
+        α = min(α, Value)      // gives minimum of the values
+        return (α)
